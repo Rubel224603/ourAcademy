@@ -1,0 +1,152 @@
+header{
+    background: black;
+    color:white;
+    padding: 20px;
+}
+.headerContainer{
+    display: flex;
+    margin-left: -115px;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    padding: 10px;
+}
+.logo h1{
+   font-weight: bolder;
+   text-transform: uppercase;
+   font-size: 23px;
+   font-style: italic;
+   color: #00BCD4;
+}
+.logo span{
+    /* margin-top: 49px; */
+    /* margin-top: 41px; */
+    top: -11px;
+    position: relative;
+    font-size: 13px;
+}
+.menu ul{
+    display: flex;
+    gap: 20px; 
+ 
+}
+.menu ul li{
+    list-style:none;
+  
+}
+.menu ul li a{
+    text-decoration:none;
+    color:white;
+
+}
+.menu ul li a:hover{
+    color: #00BCD4;
+}
+.hero{
+    background:url("asset/img/pexels-pixabay-259915.jpg");
+    background-size:cover;
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.heroContent{
+  text-align: center;
+  padding:20px;
+  position: relative;
+  top: 102px;
+  font-family: sans-serif;
+}
+.heroContent h3{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.heroContent h1{
+    font-size:40px;
+    font-weight: bolder;
+    padding: 0px;
+    text-transform: uppercase;
+}
+.heroSubHeader{
+    font-size:40px;
+    font-weight: bolder;
+    padding:10px;
+    text-transform: uppercase;
+    color:#00BCD4
+}
+.heroContent p{
+    padding: 10px;line-height: 34px;
+}
+.herobtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin-top: 62px;
+}
+.herobtn a{
+    text-decoration:none;
+    background: blue;
+    padding: 20px;
+    border-radius:10px;
+    color:white;
+    text-transform: uppercase;
+}
+.herobtn a:hover{
+    background-color:#00BCD4;
+}
+.circleSection{
+    background: #ECF6FF;
+    
+}
+.imgCircle{
+    border-radius:50%;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border:7px solid #00BCD4;
+}
+.imgCircle img{
+    /* height: 300px; */
+    margin-left: 14px;
+    margin-top: 19px;
+}
+.pt-10 {
+    padding-top: 10px;
+    padding-top: 107px !important;
+}
+.cirleBox p{
+    margin-left: -8px;
+}
+.course{
+    background: #F6F6F6;
+}
+.coursDescription{
+    width:850px;
+    text-align: center;
+    margin:0 auto;
+    font-family: open-sans;
+}
+.courseCard{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.imgSection{
+   
+}
+.coursetext{
+    
+}
+.imgSection img{
+   width: 100%;
+}
+
+
+
+
+
+
