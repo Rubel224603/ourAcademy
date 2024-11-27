@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+
 header{
     background: black;
     color:white;
@@ -12,6 +20,12 @@ header{
 .logo{
     padding: 10px;
 }
+.logo a{
+    text-decoration:none;
+}
+.logo h1:hover{
+    color:white;
+}
 .logo h1{
    font-weight: bolder;
    text-transform: uppercase;
@@ -25,7 +39,9 @@ header{
     top: -11px;
     position: relative;
     font-size: 13px;
+    color:white;
 }
+
 .menu ul{
     display: flex;
     gap: 20px; 
@@ -44,7 +60,7 @@ header{
     color: #00BCD4;
 }
 .hero{
-    background:url("asset/img/pexels-pixabay-259915.jpg");
+    background:url("../img/bd.png");
     background-size:cover;
     color:white;
     background-repeat: no-repeat;
@@ -59,14 +75,19 @@ header{
   font-family: sans-serif;
 }
 .heroContent h3{
-    font-size: 25px;
+    font-size: 41px;
     padding: 10px;
-    font-weight: bold;
-
+    letter-spacing: 1px;
+    line-height: -1px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
 }
 .heroContent h1{
     font-size:40px;
-    font-weight: bolder;
+    font-weight:800;
+    letter-spacing: 2px;
     padding: 0px;
     text-transform: uppercase;
 }
@@ -78,7 +99,12 @@ header{
     color:#00BCD4
 }
 .heroContent p{
-    padding: 10px;line-height: 34px;
+    font-weight: 100;
+    padding: 10px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    color:black;
+    font-family: monospace;
 }
 .herobtn{
     display:flex;
@@ -90,14 +116,21 @@ header{
 .herobtn a{
     text-decoration:none;
     background: blue;
-    padding: 20px;
+    padding: 15px;
+    width: 217px;
+    /* margin: 70px; */
+    font-weight: bold;
     border-radius:10px;
     color:white;
     text-transform: uppercase;
 }
 .herobtn a:hover{
     background-color:#00BCD4;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
+
 .circleSection{
     background: #ECF6FF;
     
@@ -137,16 +170,70 @@ header{
 }
 .imgSection{
    
+border: 3px solid #33b7b1cc;
+   
+padding: 10px 10px 59px 10px;
+   
+border-radius: 5px;
 }
 .coursetext{
     
+    text-align: center;
 }
 .imgSection img{
    width: 100%;
 }
+.coursetext h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.coursetext p{
+font-size: 15px;
+}
+.courseIconBtn{
+ 
+    margin-top: 39px;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+    gap: 25px;
+    background: black;
+    justify-content: center;
+    text-decoration: none;
+    margin:0 auto;
+    
+    font-size: 21px;
+}
 
+.courseTextBtn{
+    text-decoration:none;
+    
+    padding: 10px;
+    color: white;
 
-
-
-
-
+}
+.courseTextBtn:hover{
+    background: #3765AF;
+    border-radius: 10px;
+    width: 200px;
+    
+}
+/* Subcribe Section */
+.SubcribeSection{
+    background:#00BCD4;
+    padding: 40px;
+}
+.subcribe{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+}.subcribetitle{
+   text-align:center;
+}
+.subcrimeform{
+    text-align:center;
+}.messageInput{
+    margin-top: 27px;
+    width: 300px;
+}
