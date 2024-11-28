@@ -225,15 +225,105 @@ font-size: 15px;
 }
 .subcribe{
     display: flex;
-    justify-content: space-between;
-    gap:20px;
+    justify-content: space-around;
+    /* gap: 31px; */
     align-items: center;
 }.subcribetitle{
    text-align:center;
 }
+.subcrimeform input{
+    padding: 10px;
+    border-radius: 1px;
+    margin: 10px;
+
+}
 .subcrimeform{
-    text-align:center;
-}.messageInput{
+    /* text-align:center; */
+   
+    padding: 24px;
+    /* margin-left: 10px; */
+}
+.messageInput{
     margin-top: 27px;
     width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.subcrimeform input:focus,textarea{
+    outline: none;
+}
+.submitbtn{
+    width: 114px;
+    position: relative;
+    bottom: 40px;
+    /* border-radius: 50%; */
+    /* border: 1px solid red; */
+    border-radius: 1px solid red;
+    /* padding: 5px; */
+    background:black;
+    color: white;
+    border-radius: 0px;
+}
+.textBox{
+    background: #604f4f2b;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overflow{
+    height: 200px;
+    margin:70px;
+    border:1px solid red;
+}
+
+.hidden{
+    overflow:hidden;
+   
+}
+.visbile{
+    overflow:visible;
+    border:1px solid red;
+   
+}
+.scroll{
+    overflow: scroll;
+    scrollbar-width: none;
+    border:1px solid black;
+}
+.auto{
+    overflow: auto;
+    border: 1px solid green;
 }
