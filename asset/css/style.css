@@ -291,58 +291,35 @@ font-size: 15px;
     font-family:sans-serif;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.overflow{
-    height: 200px;
-    margin:70px;
-    border:1px solid red;
+.partner{
+    background-color: #ECF6FF;
 }
 
-.hidden{
-    overflow:hidden;
-   
-}
-.visbile{
-    overflow:visible;
-    border:1px solid red;
-   
-}
-.scroll{
-    overflow: scroll;
-    scrollbar-width: none;
-    border:1px solid black;
-}
-.auto{
-    overflow: auto;
-    border: 1px solid green;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
